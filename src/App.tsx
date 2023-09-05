@@ -1,10 +1,13 @@
-import { useState } from 'react'
-
+import { Button } from "./components/Button";
 
 export function App() {
   return (
-    <h1>Hello</h1>
-  )
+    <>
+      <Button />
+      <Button />
+      <Button />
+      <Button />
+      <Button />
+    </>
+  );
 }
-
-
